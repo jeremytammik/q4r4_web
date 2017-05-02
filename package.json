@@ -1,0 +1,30 @@
+{
+  "name": "q4r4_web",
+  "version": "1.0.0",
+  "description": "q4r4 query web ui",
+  "main": "server.js",
+  "dependencies": {
+    "elasticsearch": "^13.0.0",
+    "get-json": "^0.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeremytammik/q4r4_web.git"
+  },
+  "keywords": [
+    "Jeremy Tammik",
+    "The Building Coder",
+    "Revit API",
+    "question answering system"
+  ],
+  "author": "Jeremy Tammik",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jeremytammik/q4r4_web/issues"
+  },
+  "homepage": "https://github.com/jeremytammik/q4r4_web#readme"
+}
