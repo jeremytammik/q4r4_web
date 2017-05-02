@@ -5,7 +5,8 @@ client.search({
   type: 'constituencies',
   body: {
     query: {
-      match: { "constituencyname": ".+wich" }
+      //match: { "constituencyname": "Central Suffolk and North Ipswich" }
+      match: { "constituencyname": "Ipswich" }
     },
   }
 },function (error, response,status) {
