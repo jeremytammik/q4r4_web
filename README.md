@@ -1,6 +1,6 @@
 # q4r4_web &ndash; Query Q4R4 Web UI
 
-Q4R4 is QARA, Question Answering for Revit API, pronounced *cara*, Italian for *face* or *my dear*, a question answering system for Revit add-in programming.
+Q4R4 is QARA, *Question Answering for Revit API*, pronounced *cara*, Italian for *face* or *my dear*, a question answering system for Revit add-in programming.
 
 This module implements a [node](https://nodejs.org) web server and user interface to query the Q4R4 knowledge base.
 
