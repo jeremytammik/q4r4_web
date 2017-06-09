@@ -2,11 +2,12 @@ var client = require('./connection.js');
 
 client.search({  
   index: 'gov',
-  type: 'constituencies',
+  type: 'petitions', // constituencies
   body: {
     query: {
       //match: { "constituencyname": "Central Suffolk and North Ipswich" }
-      match: { "constituencyname": "Ipswich" }
+      //match: { "constituencyname": "Ipswich" }
+      match: { "action": "Ipswich" }
     },
   }
 },function (error, response,status) {
@@ -22,3 +23,4 @@ client.search({
       })
     }
 });
+
